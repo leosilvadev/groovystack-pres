@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="groovystack.ExtractionSpec" tests="2" skipped="0" failures="1" errors="0" timestamp="2016-04-30T12:37:41" hostname="leosilvadev-Inspiron-5447" time="0.188">
+  <properties/>
+  <testcase name="Should extract the fields existent in a map" classname="groovystack.ExtractionSpec" time="0.115"/>
+  <testcase name="Should ignore the fields existent in a map" classname="groovystack.ExtractionSpec" time="0.073">
+    <failure message="Condition not satisfied:&#10;&#10;result.platform == 'JVMa'&#10;|      |        |&#10;|      JVM      false&#10;[platform:JVM]  1 difference (75% similarity)&#10;                JVM(-)&#10;                JVM(a)&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+result.platform == 'JVMa'
+|      |        |
+|      JVM      false
+[platform:JVM]  1 difference (75% similarity)
+                JVM(-)
+                JVM(a)
+
+	at groovystack.ExtractionSpec.Should ignore the fields existent in a map(ExtractionSpec.groovy:41)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

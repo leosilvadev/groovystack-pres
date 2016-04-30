@@ -1,0 +1,7 @@
+task runBeforeTest << {
+	println 'Uhulll, vamos comecar a executar os testes agora!!!'
+}
+
+task runAfterTest << {
+	println 'Testes executados! Trabalho feito!'
+}
